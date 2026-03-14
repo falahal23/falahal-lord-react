@@ -1,13 +1,10 @@
 import React, { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-// 1. Hapus atau beri komentar pada index.css jika file tidak ada di folder src
-// import './index.css' 
+import './Custom.css' 
+import Container from './Container.jsx'
+import BiodataDiri from './BiodataDiri.jsx'
 
-// 2. Pastikan path ini benar (Perhatikan huruf besar/kecil!)
-import './assets/LaporanPertemuan2/Custom.css' 
-import Container from './assets/LaporanPertemuan2/Container.jsx'
-import BiodataDiri from './assets/LaporanPertemuan2/biodataDiri.jsx'
 const rootElement = document.getElementById('root');
 
 if (rootElement) {

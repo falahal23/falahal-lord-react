@@ -3,9 +3,11 @@ export default function Container({ children }) {
         <div className="container">
             <h1>Biodata Diri Saya</h1>
 
-            {children}
+            <div className="content">
+                {children}
+            </div>
 
-            <footer>
+            <footer className="footer-text">
                 <p>2026 - Politeknik Caltex Riau</p>
             </footer>
         </div>
