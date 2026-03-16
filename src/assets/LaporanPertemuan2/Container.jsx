@@ -8,7 +8,7 @@ export default function Container({ children }) {
             </div>
 
             <footer className="footer-text">
-                <p>2026 - Politeknik Caltex Riau</p>
+                <p>2026 - Politeknik Caltex riau</p>
             </footer>
         </div>
     );
