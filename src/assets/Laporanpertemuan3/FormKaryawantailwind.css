@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+/* BACKGROUND GLOBAL */
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: #e2e8f0;
+}
+
+/* CONTAINER */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* CARD GAME STYLE */
+.card {
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid #7c3aed;
+  border-radius: 16px;
+  padding: 30px;
+  width: 380px;
+  box-shadow:
+    0 0 20px #7c3aed,
+    0 0 40px rgba(124, 58, 237, 0.4);
+  backdrop-filter: blur(10px);
+  animation: fadeIn 0.5s ease;
+}
+
+/* TITLE */
+.card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #a78bfa;
+  text-shadow: 0 0 10px #7c3aed;
+}
+
+/* GROUP */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+/* LABEL */
+.form-group label {
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #c4b5fd;
+}
+
+/* INPUT & SELECT */
+.input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #312e81;
+  background: #020617;
+  color: white;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.input:hover {
+  border-color: #7c3aed;
+}
+
+/* FOCUS EFFECT (NEON GLOW) */
+.input:focus {
+  outline: none;
+  border: 1px solid #a78bfa;
+  box-shadow:
+    0 0 10px #7c3aed,
+    0 0 20px rgba(167, 139, 250, 0.5);
+  transform: scale(1.02);
+}
+
+/* ERROR */
+.error-border {
+  border: 1px solid #f43f5e;
+  box-shadow: 0 0 8px #f43f5e;
+}
+
+.error-text {
+  color: #f43f5e;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* BUTTON GAME STYLE */
+.btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #7c3aed, #06b6d4);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 15px #7c3aed;
+}
+
+/* BUTTON HOVER */
+.btn:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow:
+    0 0 25px #7c3aed,
+    0 0 40px #06b6d4;
+}
+
+/* RESULT */
+.result {
+  margin-top: 15px;
+  padding: 12px;
+  background: rgba(16, 185, 129, 0.1);
+  border-left: 4px solid #10b981;
+  border-radius: 8px;
+  animation: fadeIn 0.5s ease;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
