@@ -1,6 +1,7 @@
 import { useState } from "react";
 import InputField from "../components/InputField";
 import SelectField from "../components/SelectField";
+import "../FormKaryawantailwind.css";
 
 
 export default function FormKaryawan() {
@@ -44,7 +45,7 @@ export default function FormKaryawan() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 to-slate-800">
 
       {/* CARD */}
-      <div className="bg-slate-900 text-white p-8 rounded-2xl shadow-2xl w-[400px] border border-slate-700">
+      <div className="bg-slate-900 text-white p-8 rounded-2xl shadow-2xl w-100 border border-slate-700">
 
         {/* TITLE */}
         <h2 className="text-2xl font-bold text-center mb-6 text-cyan-400">

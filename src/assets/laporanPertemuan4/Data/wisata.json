@@ -1,0 +1,382 @@
+[
+  {
+    "id": 1,
+    "name": "Raja Ampat",
+    "location": "Papua",
+    "price": 500000,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Surga bawah laut terbaik di dunia",
+      "openHour": "08:00 - 17:00",
+      "category": "Alam"
+    },
+    "facilities": ["Snorkeling", "Diving", "Boat"],
+    "contact": {
+      "phone": "08123456789",
+      "website": "https://rajaampat.com",
+      "email": "info@rajaampat.com"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Borobudur",
+    "location": "Jawa Tengah",
+    "price": 200000,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Candi Budha terbesar di dunia",
+      "openHour": "06:00 - 18:00",
+      "category": "Sejarah"
+    },
+    "facilities": ["Tour Guide", "Souvenir", "Parking"],
+    "contact": {
+      "phone": "08123456780",
+      "website": "https://borobudurpark.com",
+      "email": "info@borobudur.com"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Bali Safari",
+    "location": "Bali",
+    "price": 350000,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Wisata safari dan konservasi satwa",
+      "openHour": "09:00 - 17:00",
+      "category": "Satwa"
+    },
+    "facilities": ["Safari Tour", "Animal Show", "Hotel"],
+    "contact": {
+      "phone": "08123456781",
+      "website": "https://balisafari.com",
+      "email": "contact@balisafari.com"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Taman Nasional Bromo",
+    "location": "Jawa Timur",
+    "price": 150000,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Gunung berapi ikonik dengan pemandangan matahari terbit",
+      "openHour": "03:00 - 12:00",
+      "category": "Alam"
+    },
+    "facilities": ["Jeep Tour", "Guide", "Parking"],
+    "contact": {
+      "phone": "08123456782",
+      "website": "https://bromotour.com",
+      "email": "info@bromotour.com"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Danau Toba",
+    "location": "Sumatera Utara",
+    "price": 250000,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Danau vulkanik terbesar di Asia Tenggara",
+      "openHour": "07:00 - 19:00",
+      "category": "Alam"
+    },
+    "facilities": ["Boat", "Homestay", "Restaurant"],
+    "contact": {
+      "phone": "08123456783",
+      "website": "https://danau-toba.com",
+      "email": "support@danautoba.com"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Taman Mini Indonesia Indah",
+    "location": "Jakarta",
+    "price": 120000,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Miniatur kebudayaan Indonesia dalam satu kawasan",
+      "openHour": "08:00 - 20:00",
+      "category": "Budaya"
+    },
+    "facilities": ["Museum", "Teater", "Outbond"],
+    "contact": {
+      "phone": "08123456784",
+      "website": "https://tmii.com",
+      "email": "info@tmii.com"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Pulau Komodo",
+    "location": "Nusa Tenggara Timur",
+    "price": 450000,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Rumah naga purba dan snorkeling eksotis",
+      "openHour": "06:00 - 17:00",
+      "category": "Alam"
+    },
+    "facilities": ["Boat", "Guide", "Snorkeling"],
+    "contact": {
+      "phone": "08123456785",
+      "website": "https://komodotour.com",
+      "email": "contact@komodotour.com"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Candi Prambanan",
+    "location": "Yogyakarta",
+    "price": 180000,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Kompleks candi Hindu bersejarah dengan relief epik",
+      "openHour": "06:00 - 18:00",
+      "category": "Sejarah"
+    },
+    "facilities": ["Tour Guide", "Parking", "Souvenir"],
+    "contact": {
+      "phone": "08123456786",
+      "website": "https://prambanan.com",
+      "email": "info@prambanan.com"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Pulau Weh",
+    "location": "Aceh",
+    "price": 280000,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Pulau kecil dengan pantai jernih dan diving",
+      "openHour": "07:00 - 18:00",
+      "category": "Alam"
+    },
+    "facilities": ["Diving", "Snorkeling", "Homestay"],
+    "contact": {
+      "phone": "08123456787",
+      "website": "https://pulauweh.com",
+      "email": "info@pulauweh.com"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Kawah Ijen",
+    "location": "Jawa Timur",
+    "price": 220000,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Dikenal dengan api biru dan kawah belerang",
+      "openHour": "00:00 - 12:00",
+      "category": "Alam"
+    },
+    "facilities": ["Hiking", "Guide", "Camping"],
+    "contact": {
+      "phone": "08123456788",
+      "website": "https://ijen.crater",
+      "email": "support@ijen.com"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Pantai Kuta",
+    "location": "Bali",
+    "price": 150000,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Pantai populer dengan ombak dan kehidupan malam",
+      "openHour": "06:00 - 19:00",
+      "category": "Pantai"
+    },
+    "facilities": ["Surfing", "Restaurant", "Spa"],
+    "contact": {
+      "phone": "08123456789",
+      "website": "https://pantai-kuta.com",
+      "email": "contact@kuta.com"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Taman Laut Bunaken",
+    "location": "Sulawesi Utara",
+    "price": 320000,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Spot snorkeling dan diving kelas dunia",
+      "openHour": "07:00 - 16:00",
+      "category": "Alam"
+    },
+    "facilities": ["Boat", "Diving", "Snorkeling"],
+    "contact": {
+      "phone": "08123456790",
+      "website": "https://bunaken.com",
+      "email": "hello@bunaken.com"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Lembang Floating Market",
+    "location": "Jawa Barat",
+    "price": 90000,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Pasar apung dengan makanan dan souvenir unik",
+      "openHour": "08:00 - 17:00",
+      "category": "Kuliner"
+    },
+    "facilities": ["Food", "Souvenir", "Boat"],
+    "contact": {
+      "phone": "08123456791",
+      "website": "https://floatingmarket.com",
+      "email": "info@floatingmarket.com"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Taman Nasional Ujung Kulon",
+    "location": "Banten",
+    "price": 270000,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Habitat badak Jawa dan wisata konservasi alam",
+      "openHour": "08:00 - 16:00",
+      "category": "Alam"
+    },
+    "facilities": ["Boat", "Guide", "Camping"],
+    "contact": {
+      "phone": "08123456792",
+      "website": "https://ujungkulon.com",
+      "email": "info@ujungkulon.com"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Jalan Braga",
+    "location": "Bandung",
+    "price": 70000,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Jalan bersejarah dengan kafe dan galeri seni",
+      "openHour": "10:00 - 22:00",
+      "category": "Budaya"
+    },
+    "facilities": ["Cafe", "Gallery", "Street Music"],
+    "contact": {
+      "phone": "08123456793",
+      "website": "https://jalanbraga.com",
+      "email": "contact@braga.com"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Taman Nasional Komodo",
+    "location": "Nusa Tenggara Timur",
+    "price": 460000,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Wisata alam dan hewan purba di Pulau Komodo",
+      "openHour": "06:00 - 17:00",
+      "category": "Alam"
+    },
+    "facilities": ["Boat", "Guide", "Snorkeling"],
+    "contact": {
+      "phone": "08123456794",
+      "website": "https://komodonationalpark.com",
+      "email": "info@komodonationalpark.com"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Batu Night Spectacular",
+    "location": "Malang",
+    "price": 150000,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Taman hiburan malam dengan lampion dan wahana",
+      "openHour": "16:00 - 23:00",
+      "category": "Hiburan"
+    },
+    "facilities": ["Wahana", "Kuliner", "Photo Spot"],
+    "contact": {
+      "phone": "08123456795",
+      "website": "https://batunightspectacular.com",
+      "email": "contact@bns.com"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Taman Wisata Alam Angke Kapuk",
+    "location": "Jakarta",
+    "price": 100000,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Wisata mangrove edukatif di Jakarta Utara",
+      "openHour": "07:00 - 17:00",
+      "category": "Alam"
+    },
+    "facilities": ["Boat", "Trekking", "Bird Watching"],
+    "contact": {
+      "phone": "08123456796",
+      "website": "https://angkokapuk.com",
+      "email": "info@angkokapuk.com"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Pulau Derawan",
+    "location": "Kalimantan Timur",
+    "price": 390000,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Surga snorkeling dan penyu di laut timur Kalimantan",
+      "openHour": "07:00 - 18:00",
+      "category": "Alam"
+    },
+    "facilities": ["Boat", "Snorkeling", "Homestay"],
+    "contact": {
+      "phone": "08123456797",
+      "website": "https://derawan.com",
+      "email": "info@derawan.com"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Bukit Tinggi",
+    "location": "Sumatera Barat",
+    "price": 130000,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop",
+    "details": {
+      "description": "Kota kecil dengan panorama alam dan rumah gadang",
+      "openHour": "08:00 - 18:00",
+      "category": "Budaya"
+    },
+    "facilities": ["Tour Guide", "Homestay", "Kuliner"],
+    "contact": {
+      "phone": "08123456798",
+      "website": "https://bukittinggi.com",
+      "email": "info@bukittinggi.com"
+    }
+  }
+]
